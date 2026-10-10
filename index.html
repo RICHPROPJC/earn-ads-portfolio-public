@@ -14,25 +14,43 @@
   header p { margin:0; color:var(--muted); font-size: .95rem; line-height:1.5; }
   .grid { max-width:1200px; margin: 16px auto 32px; padding: 0 20px; display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:14px; }
   figure { margin:0; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
-  figure img { width:100%; aspect-ratio: 1 / 1; object-fit: cover; display:block; background:#111; }
+  figure img, figure video { width:100%; aspect-ratio: 1 / 1; object-fit: cover; display:block; background:#111; }
+  figure video { aspect-ratio: 9 / 16; max-height: 420px; margin: 0 auto; }
   figcaption { padding:10px 12px 12px; font-size:.86rem; line-height:1.45; color:var(--muted); }
   figcaption strong { color:var(--fg); display:block; margin-bottom:2px; }
   .sheet { max-width:1200px; margin: 0 auto 28px; padding: 0 20px; }
   .sheet img { width:100%; border-radius:12px; display:block; border:1px solid var(--line); }
+  .videos { max-width:1200px; margin: 8px auto 28px; padding: 0 20px; display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap:14px; }
+  h2 { max-width:1200px; margin: 8px auto 0; padding: 0 20px; font-size:1.1rem; }
   footer { max-width:1200px; margin:0 auto 40px; padding:0 20px; color:var(--muted); font-size:.85rem; }
 </style>
 </head>
 <body>
 <header>
   <h1>AI 产品广告作品墙（短名单 14）</h1>
-  <p>从已批 61 张成品广告里选出，覆盖小红书 / 淘宝 / IG / Story / 横幅 / 灯箱 / 传单 / 菜单 / 前后对比 / VS / 节日。演示 SKU，挂牌卖的是定制服务，不是素材包。</p>
+  <p>从已批 61 张成品广告里选出，覆盖小红书 / 淘宝 / IG / Story / 横幅 / 灯箱 / 传单 / 菜单 / 前后对比 / VS / 节日。演示 SKU，挂牌卖的是定制服务，不是素材包。下方短片可直接播放（9:16）。</p>
 </header>
+<h2>可播短片（新）</h2>
+<section class="videos">
+  <figure>
+    <video controls playsinline preload="metadata" poster="shortlist_12/xhs_cover__lipstick_kr_01.jpg" src="motion/xhs_cover__lipstick_kr_01_kb8s.mp4"></video>
+    <figcaption><strong>小红书 · 奶茶色唇膏</strong>黄皮都可用 · 8s</figcaption>
+  </figure>
+  <figure>
+    <video controls playsinline preload="metadata" poster="shortlist_12/ig_feed__sneakers_neon_01.jpg" src="motion/ig_feed__sneakers_neon_01_kb8s.mp4"></video>
+    <figcaption><strong>IG · neon sneakers</strong>RUN THE NIGHT · 8s</figcaption>
+  </figure>
+  <figure>
+    <video controls playsinline preload="metadata" poster="shortlist_12/festival__mooncake_lux_01.jpg" src="motion/festival__mooncake_lux_01_kb8s.mp4"></video>
+    <figcaption><strong>节日 · 中秋礼盒</strong>月光奢礼 · 8s</figcaption>
+  </figure>
+</section>
 <section class="sheet">
   <img src="shortlist_12/contact_sheet.jpg" alt="shortlist contact sheet"/>
 </section>
 <section class="grid">
   <figure><img src="shortlist_12/xhs_cover__bubbletea_y2k_02.jpg" alt=""/><figcaption><strong>小红书 · 芋泥波波 Y2K</strong>第二杯半價</figcaption></figure>
-  <figure><img src="shortlist_12/xhs_cover__lipstick_kr_01.jpg" alt=""/><figcaption><strong>小红书 · 奶茶色唇膏</strong>秋冬必入</figcaption></figure>
+  <figure><img src="shortlist_12/xhs_cover__lipstick_kr_01.jpg" alt=""/><figcaption><strong>小红书 · 奶茶色唇膏</strong>黄皮都可用</figcaption></figure>
   <figure><img src="shortlist_12/taobao_main__phone_cine_04.jpg" alt=""/><figcaption><strong>淘宝主图 · 影像旗舰</strong>立減500</figcaption></figure>
   <figure><img src="shortlist_12/taobao_main__petfood_photo_02.jpg" alt=""/><figcaption><strong>淘宝主图 · 猫粮写真</strong>主粮上新</figcaption></figure>
   <figure><img src="shortlist_12/ig_feed__coffee_lux_02.jpg" alt=""/><figcaption><strong>IG · luxury coffee</strong>EN lifestyle</figcaption></figure>
@@ -46,6 +64,6 @@
   <figure><img src="shortlist_12/comparison__earbuds_cine_01.jpg" alt=""/><figcaption><strong>VS 对比 · 耳机</strong>AURA Pro</figcaption></figure>
   <figure><img src="shortlist_12/festival__mooncake_lux_01.jpg" alt=""/><figcaption><strong>节日 · 中秋礼盒</strong>礼盒档期</figcaption></figure>
 </section>
-<footer>定制服务：闲鱼上新四件套 ¥249 · Fiverr Standard $75 · 交期 2–3 天。下单请私信平台会话；作品为演示 SKU，正式单按你的产品重做。</footer>
+<footer>作品墙含可播 9:16 短片（KenBurns fallback；H3 起好後會換真 motion）。挂牌：闲鱼 ¥249 / Fiverr Standard $75 / Upwork pilot USD 225。</footer>
 </body>
 </html>
